@@ -28,5 +28,5 @@ CONSUMER_SECRET = ''
 RESET_PASSWORD_URL = 'http://127.0.0.1:3000//users/reset_password/'
 
 # allow only these additional locales (use downcase, easier to parse)
-ALLOWED_LOCALES = ['pt-br','it']
+ALLOWED_LOCALES = ['pt-br','it','fr']
 

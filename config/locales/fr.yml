@@ -1,0 +1,6 @@
+# Sample localization file for French. Add more files in this directory for other locales.
+# See http://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+# IMPORTANT!! prepend lines with spaces not tabs
+fr:
+  home_motto: "Site en français"
