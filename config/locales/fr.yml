@@ -3,4 +3,790 @@
 
 # IMPORTANT!! prepend lines with spaces not tabs
 fr:
+  time:
+    formats:
+      pretty: "%a, %b %e at %l:%M %p"
+  about: "A propos"
+  account: "Compte"
+  account_changes: "Confirmer les modifications du compte"
+  account_delete: "Supprimer le compte"
+  account_deleted: "Votre compte a été supprimé."
+  account_delete_message: "Souhaitez-vous supprimer votre compte?"
+  account_edit: "Modifier les informations de votre compte"
+  account_error: "Des erreurs ont été rencontrées lors de la création de votre compte:"
+  account_error_edit: "Des erreurs ont été rencontrées lors de l'édition de votre compte:"
+  account_info: "Informations sur le compte"
+  account_not_found: "Votre compte n'a pu être trouvé."
+  account_security: "Pour des raisons de sécurité, votre mot de passe actuel doit être saisi."
+  account_update: "Mettre à jour le compte"
+  action: "Action"
+  admin: "Administration"
+  ago: "il y a"
+  api_key: "Clé API"
+  api_key_delete: "Supprimer la clé d'API"
+  api_key_key: "Clé"
+  api_key_new: "Générer une nouvelle clé d'API"
+  api_key_read: "Clé d'API de lecture"
+  api_key_read_new: "Générer une nouvelle clé d'API de lecture"
+  api_key_write: "Clé d'API d'écriture"
+  api_key_write_new: "Générer une nouvelle clé d'API d'écriture"
+  api_keys: "Clés API"
+  api_keys_manage: "Gérer les clés d'API"
+  application_name: "ThingSpeak"
+  apps: "Applications"
+  authorization: "Autorisation"
+  average: "Moyenne"
+  back: "Retour"
+  blog: "Blog"
+  channel: "Chaîne"
+  channel_clear: "Vider la chaîne"
+  channel_clear_message: "Voulez-vous supprimer tous les enregistrements de cette chaîne?"
+  channel_create: "Créer une nouvelle chaîne"
+  channel_edit: "Modifier la chaîne"
+  channel_error: "Des erreurs ont été rencontrées lors de la création de votre chaîne:"
+  channel_update_success: "La chaîne a été mise à jour."
+  channel_feed: "Flux de données de la chaîne"
+  channel_default_field: "Étiquette de champ"
+  channel_default_name: "Chaîne"
+  channel_delete: "Supprimer la chaîne"
+  channel_delete_message: "Voulez-vous supprimer cette chaîne ?"
+  channel_description: "Description"
+  channel_directions: "Instructions"
+  channel_id: "ID de la chaîne"
+  channel_log_to: "Se connecter à la chaîne"
+  channel_logged_to: "Connecté à la chaîne"
+  channel_name: "Nom"
+  channel_ranking: "Pourcentage d'achèvement"
+  channel_not_public: "Cette chaîne n'est pas publique."
+  channel_permission: "Vous n'avez pas l'autorisation d'afficher cette chaîne!"
+  channel_public: "Voir la chaîne publique"
+  channel_public_view: "Visionnage public"
+  channel_url: "URL"
+  channels: "Chaînes"
+  channels_my: "Mes Chaînes"
+  channels_near: "Chaînes Proches"
+  channels_public: "Chaînes Publiques"
+  channels_public_view: "Voir les Chaînes Publiques"
+  channel_update: "Mettre à jour la chaîne"
+  channel_being_cleared: "Cette chaîne est actuellement en cours de suppression. Toutes les données que vous publiez sur cette chaîne avant la fin de cette opération pourront être supprimées."
+  channel_video_type_blank: "Soit Youtube, soit Vimeo, est nécessaire si l'ID d'une vidéo est spécifiée."
+  chart: "Graphique"
+  chart_max: "Maximum"
+  chart_min: "Minimum"
+  chart_background_color: "Arrière-plan"
+  chart_is_dynamic: "Dynamique?"
+  chart_embed_code: "Code Intégré"
+  chart_example: "Exemple de graphique"
+  chart_color: "Couleur"
+  chart_no_access: "Cette chaîne n'est pas publique. Pour incorporer des graphiques, la chaîne doit être publique ou une clé de lecture doit être spécifiée."
+  chart_owned: "Vos Graphiques"
+  chart_round: "Arrondi"
+  chart_type: "Type"
+  chart_update: "Mise à jour du graphique"
+  chart_xaxis: "Axe des X"
+  chart_yaxis: "Axe des Y"
+  chart_yaxis_min: "Minimum de l'axe des Y"
+  chart_yaxis_max: "Maximum de l'axe des Y"
+  charts: "Graphiques"
+  charts_view: "Voir les graphiques"
+  comment_add: "Ajouter un commentaire"
+  comment_flag: "Signaler Un Abus"
+  comment_reply: "répondre"
+  comment_reported: "Signalé!"
+  community: "Communauté"
+  confirm_account_delete: "Êtes-vous sûr de vouloir supprimer votre compte? Cela ne peut pas être annulé."
+  confirm_read_key_delete: "Êtes-vous sûr de vouloir supprimer cette clé d'API de lecture?"
+  confirm_channel_clear: "Êtes-vous sûr de vouloir vider cette chaîne?"
+  confirm_channel_delete: "Êtes-vous sûr de vouloir supprimer cette chaîne?"
+  confirm_comment_delete: "Êtes-vous sûr de vouloir supprimer ce commentaire?"
+  confirm_device_delete: "Êtes-vous sûr de vouloir supprimer ce périphérique?"
+  confirm_device_random_mac: "Êtes-vous sûr de vouloir générer une adresse MAC aléatoire pour cet appareil?"
+  confirm_device_unique_mac: "Êtes-vous sûr de vouloir générer une adresse MAC unique pour cet appareil?"
+  confirm_new_api_key: "Êtes-vous sûr de vouloir générer une nouvelle clé d'API d'écriture?"
+  confirm_new_talkback_key: "Êtes-vous sûr de vouloir générer une nouvelle clé d'API de TalkBack?"
+  confirm_new_thinghttp_key: "Êtes-vous sûr de vouloir générer une nouvelle clé d'API ThingHTTP?"
+  confirm_new_thingtweet_key: "Êtes-vous sûr de vouloir générer une nouvelle clé d'API ThingTweet?"
+  confirm_new_user_api_key: "Êtes-vous sûr de vouloir générer une nouvelle clé d'API?"
+  confirm_plugin_delete: "Êtes-vous sûr de vouloir supprimer ce plugin?"
+  confirm_react_delete: "Êtes-vous sûr de vouloir supprimer ce React?"
+  confirm_talkback_delete: "Êtes-vous sûr de vouloir supprimer ce TalkBack?"
+  confirm_thinghttp_delete: "Êtes-vous sûr de vouloir supprimer ce ThingHTTP?"
+  confirm_timecontrol_delete: "Êtes-vous sûr de vouloir supprimer ce TimeControl?"
+  confirm_tweetcontrol_delete: "Êtes-vous sûr de vouloir supprimer ce TweetControl?"
+  confirm_twitter_delete: "Êtes-vous sûr de vouloir dissocier ce compte Twitter?"
+  contact_us: "Contactez-Nous"
+  contact_us_no_email: "Vous devez fournir une adresse email valide."
+  contact_us_no_message: "Merci d'ajouter un message au formulaire de Contact."
+  contact_us_success: "Votre message a été envoyé avec succès."
+  create_account: "Créer Un Compte"
+  create_model: "Créer %{model}"
+  created: "Créé"
+  data: "Données"
+  days: "Jours"
+  default: "défaut"
+  delete: "supprimer"
+  device: "Périphérique"
+  delete_model: "Supprimer %{model}"
+  developer_info: "Informations sur le développeur"
+  device_create: "Ajouter Un nouveau périphérique"
+  device_custom_mac: "Saisir l'adresse MAC personnalisée"
+  device_default_name: "Périphérique"
+  device_default_gateway: "IP de passerelle par défaut"
+  device_delete: "Supprimer l'appareil"
+  device_delete_message: "Êtes-vous sûr de vouloir supprimer ce périphérique?"
+  device_edit: "Modifier L'Appareil"
+  device_error: "Il y a eu quelques problèmes lors de la création de votre périphérique:"
+  device_ip_address: "Adresse IP publique"
+  device_local_ip_address: "Adresse IP locale"
+  device_local_port: "Port local"
+  device_mac: "Adresse MAC"
+  device_mac_invalid: "Adresse MAC non valide."
+  device_model: "Modèle"
+  device_port: "Numéro de port public"
+  device_random_mac: "Générer une adresse MAC aléatoire"
+  device_submit_custom_mac: "Enregistrer l'adresse MAC personnalisée"
+  device_subnet: "Masque de sous-réseau"
+  device_title: "Titre"
+  device_unique_mac: "Générer une adresse MAC unique"
+  device_update: "Mise à jour de l'appareil"
+  devices: "Appareils"
+  documentation: "Documentation"
+  download: "Télécharger"
+  download_feeds: "Télécharger l'ensemble des flux de la chaîne au format CSV."
+  edit: "Modifier"
+  edit_model: "Modifier %{model}"
+  elevation: "Élévation"
+  email: "E-mail"
+  email_form_add: "Ajouter un e-mail"
+  email_address: 'adresse email'
+  entries: "Enregistrement"
+  export: "Exporter"
+  featured_channels: "Chaînes en vedette"
+  selected_channels: "Chaînes"
+  features: "Caractéristiques"
+  field: "Champ"
+  footer: "Ceci est le message de bas de page."
+  forgot: "Avez-vous oublié votre mot de passe?"
+  forum: "Forum"
+  for_more_information: "Plus d'informations"
+  frequency: 'fréquence'
+  generate_thingtweet_arduino_code: "Générer du code ThingTweet pour Arduino"
+  get_started: "Commencer maintenant"
+  height: "Hauteur"
+  home: "Accueil"
   home_motto: "Site en français"
+  home_tagline: "La plateforme de données ouverte pour l'Internet des Objets."
+  homepage: "ThingSpeak est une plateforme ouverte pour l'Internet des Objet de ioBridge."
+  homepage_logged_in: "Page d'accueil des utilisateurs connectés!"
+  hour: 'heure'
+  import: "importation"
+  import_data: "Importer des données"
+  latitude: "Latitude"
+  longitude: "Longitude"
+  median: "Médiane"
+  member_since: "Membre depuis"
+  message: 'message'
+  message_field: "Champ Message"
+  metadata: 'métadonnées'
+  minute: 'minute'
+  minutes: 'minutes'
+  myaccount: "Mon Compte"
+  mychannels: "Mes chaînes"
+  name: 'nom'
+  new: "Nouveau"
+  new_model: "Nouveau %{model}"
+  note: "Note"
+  note_save: "Enregistrer la note"
+  one_time: 'une fois'
+  password: "Mot de passe"
+  password_change: "Changer de mot de passe"
+  password_change_raw: "Changer<br />de mot de passe"
+  password_confirmation: "Confirmer le mot de passe"
+  password_confirmation_raw: "Confirmer<br />le mot de passe"
+  password_current: "Mot de passe actuel"
+  password_current_raw: "Mot de passe<br />actuel"
+  password_forgot: "Avez-vous oublié votre mot de passe?"
+  password_forgot_message: "Entrez votre adresse e-mail ci-dessous et nous allons vous envoyer un lien à partir duquel vous pourrez réinitialiser votre mot de passe."
+  password_incorrect: "Votre mot de passe actuel n'a pas été entré correctement."
+  password_link_expired: "Le lien pour réinitialiser votre mot de passe a expiré."
+  password_new_choose: "Choisissez un mot de passe sécurisé pour votre compte."
+  password_new_confirmation: "Saisissez de nouveau votre mot de passe pour le confirmer."
+  password_new_error: "Le nouveau mot de passe saisi a posé quelques problèmes:"
+  password_problem: "Le mot de passe est trop court ou la confirmation n'a pas été validée."
+  password_new: "Créer un nouveau mot de passe"
+  password_reset_message1: "Une demande de réinitialisation de votre mot de passe a été faite."
+  password_reset_message2: "Si vous n'avez pas fait cette demande, ignorer tout simplement cet e-mail."
+  password_reset_message3: "Si vous avez fait cette demande, veuillez suivre le lien ci-dessous:"
+  password_reset_error: "Une erreur s'est produite lors de l'envoi des instructions de réinitialisation de votre mot de passe."
+  password_reset_mailed: "Les instructions pour réinitialiser votre mot de passe vous ont été envoyées par courriel."
+  password_reset_subject: "Instructions de réinitialisation de votre mot de passe ThingSpeak"
+  plugin: "Plugin"
+  permission: "Vous n'avez pas la permission d'accéder à ceci"
+  plugin_chart: "Graphique Avec Plusieurs Séries"
+  plugin_create: "Créer Des Plugin"
+  plugin_css: "CSS"
+  plugin_default_name: "Plugin"
+  plugin_delete: "Supprimer le plugin"
+  plugin_delete_message: "Voulez-vous supprimer ce Plugin?"
+  plugin_edit: "Sauvegarder les données"
+  plugin_error: "Des problèmes ont été rencontrés lors de la création de votre plugin:"
+  plugin_html: "HTML"
+  plugin_js: "JavaScript"
+  plugin_name: "Nom"
+  plugin_new_message: "Veuillez sélectionner un modèle à utiliser avec votre nouveau plugin."
+  plugin_save_message: "Votre plugin a été enregistré."
+  plugin_template: "Modèle de plugin"
+  plugins: "Plugins"
+  plugin_permission: "Vous n'avez pas les permissions requises pour accéder à ce plugin!"
+  plugin_private_flag: "Rendre privé?"
+  plugin_public_flag: "Rendre public?"
+  profile_bio: "Bio"
+  profile_edit: "Modifier le profil public"
+  profile_for: "Profil pour"
+  profile_not_public: "Ce profil n'est pas public."
+  profile_not_public_me: "Votre profil n'est pas public."
+  profile_update: "Mettre à jour le profil"
+  profile_view: "Voir le profil public"
+  profile_website: "Site web"
+  public: "Rendre public?"
+  public_header: "Public?"
+  public_profile: "Profil public"
+  public_true: "Cette chaîne est publique."
+  questions: "Questions"
+  react: "React"
+  react_header_name: "Nom"
+  react_delete_confirm: "Êtes-vous sûr de vouloir supprimer cette condition?"
+  react_new_button: "Créer un nouveau React"
+  react_thinghttp_error: "La requête '%{thinghttp_name}' ne vous appartient pas"
+  react_thingtweet_error: "Le compte Twitter '%{twitter_account_name}' ne vous appartient pas"
+  react_channel_error: "La chaîne '%{channel_name}' ne vous appartient pas"
+  react_invalid_error: "%{value} n'est pas une valeur valide"
+  react_invalid_number_error: "%{value} n'est pas une valeur numérique valide"
+  react_invalid_condition_error: "%{value} n'est pas une condition valide"
+  react_invalid_condition_type_error: "%{value} n'est pas un type de condition valide"
+  react_twitter_account_required: "Vous devez ajouter un compte twitter pour pouvoir tweeter"
+  react_add_twitter_account: "Ajouter un compte twitter"
+  react_thinghttp_required: "Vous devez ajouter une requête ThingHTTP"
+  react_add_thinghttp_req: "Ajouter une requête ThingHTTP"
+  react_tweet_cant_be_blank: "Le tweet ne peut pas être vide"
+  react_type_string: "Chaîne"
+  react_type_status: "Statut"
+  react_type_numeric: "Numérique"
+  react_type_geo: "Geo"
+  react_type_nodata: "Pas de contrôle des connées"
+  react_when_insert: "A l'ajout des données"
+  react_when_10m: "Toutes les 10 minutes"
+  react_when_30m: "Toutes les 30 minutes"
+  react_when_60m: "Toutes les 60 minutes"
+  react_condition_prefix: "Si chaîne"
+  react_condition_field: "champ"
+  react_condition_contains: "contient"
+  react_condition_begins: "commence par"
+  react_condition_ends: "se termine par"
+  react_condition_gt: "est supérieur à"
+  react_condition_gte: "est supérieur ou égal à"
+  react_condition_lt: "est inférieur à"
+  react_condition_lte: "est inférieur ou égal à"
+  react_condition_eq: "est égal à"
+  react_condition_ne: "n'est pas égal à"
+  react_condition_within: "est à l'intérieur de"
+  react_condition_further: "est plus loin que"
+  react_condition_nodata_prefix: "n'a pas été mis à jour pendant"
+  react_condition_nodata_suffix: "minutes"
+  react_condition_geo: "km de"
+  react_create_button: "Créer un React"
+  react_save_button: "Créer un React"
+  react_latitude: "latitude"
+  react_longitude: "longitude"
+  react_delete: "Supprimer ce React"
+  react_twitter_delete_warning1: "Impossible de supprimer ce compte Twitter car il est utilisé par %{reacts_count}: %{reacts_list}"
+  react_twitter_delete_warning2: "Merci de supprimer ou de modifier ce React avant de dissocier ce compte Twitter."
+  react_thinghttp_delete_warning1: "Impossible de supprimer cette requête ThingHTTP car elle est utilisée par %{reacts_count}: %{reacts_list}"
+  react_thinghttp_delete_warning2: "Merci de supprimer ou de modifier ce React avant de dissocier cette requête ThingHTTP."
+  react_default_name: "React"
+  react_delete_message: "Souhaitez-vous supprimer ce React?"
+  react_label_action: "Action"
+  react_label_condition: "Condition"
+  react_label_test_frequency: "Fréquence de test"
+  react_label_react_name: "Nom du React"
+  react_label_condition_type: "Type de condition"
+  react_label_options: "Options"
+  react_action_tweet_prefix: "puis tweetez"
+  react_action_tweet_suffix: "en utilisant un compte Twitter"
+  react_action_thinghttp_prefix: "puis exécutez une requête ThingHTTP"
+  react_option_run_first_time: "Exécuter l'action seulement la première fois que la condition est remplie"
+  react_option_run_every_time: "Exécuter l'action à chaque fois que la condition est remplie"
+  recurring: 'récurrent'
+  remember_me: "Se souvenir de mon identifiant utilisateur"
+  results: "Résultats"
+  rss: "Flux RSS"
+  save: "Enregistrer"
+  save_model: "Enregistrer %{model}"
+  saved: "Enregistré."
+  saved_error: "Erreur lors de l'enregistrement de données."
+  search: "recherche"
+  search_by_tag: "Rechercher par tag"
+  search_by_username: "Rechercher par nom d'utilisateur"
+  search_empty: "Aucun résultat de recherche n'a été trouvé."
+  secure_signin: "Connexion sécurisée"
+  select_file: "Veuillez sélectionner un fichier à charger."
+  search_input_tag: "Saisissez un tag"
+  search_input_username: "Entrer le nom d'utilisateur"
+  signin: "Se connecter"
+  signin_failure: "Echec de la connexion"
+  signin_please: "Veuillez vous connecter pour accéder à votre compte."
+  signin_try_again: "Nom d'utilisateur ou mot de passe incorrect. Merci de réessayer à nouveau."
+  signout: "Se déconnecter"
+  signup: "S'inscrire"
+  signup_header: "Inscrivez-vous pour commencer à utiliser ThingSpeak"
+  slug: "Slug"
+  social_channel: "Chaîne sociale"
+  social_channel_create: "Créer une nouvelle chaîne sociale"
+  social_channel_error_fields: "Votre chaîne doit comporter au moins un champ."
+  social_channel_error_name_blank: "Le nom ne peut pas être vide."
+  social_channel_no_value: "Veuillez saisir une valeur."
+  social_channel_error_slug_blank: "Le Slug ne peut pas être vide."
+  social_channel_error_slug_exists: "Le Slug a déjà été pris."
+  social_channel_new: "Nouvelle chaîne sociale"
+  social_saved: "Envoyé, merci !"
+  status_messages: "Messages d'état"
+  submit: "Envoyer"
+  sum: "Somme"
+  support: "Support"
+  tag: "tag"
+  tags: "Tags"
+  tags_search: "Parcourir les chaînes"
+  talkback: "TalkBack"
+  talkback_command_add: "Ajouter une nouvelle commande"
+  talkback_command_command_string: "Commande chaîne de caractères"
+  talkback_command_id: "Commande ID"
+  talkback_command_position: "Position"
+  talkback_command_remove: "Supprimer la commande"
+  talkback_commands: "Commandes"
+  talkback_delete_message: "Voulez-vous supprimer ce TalkBack?"
+  talkback_edit: "Modifier le TalkBack"
+  talkback_error: "Des problèmes ont été rencontrés lors de la création de votre TalkBack:"
+  talkback_id: "ID du TalkBack"
+  talkback_name: "Nom"
+  talkback_new_api_key: "Régénérer la clé d'API"
+  talkback_permission: "Ce TalkBack ne vous appartient pas."
+  talkback_required: "Vous avez besoin d'ajouter un TalkBack"
+  thinghttp: "ThingHTTP"
+  thinghttp_auth_name: "Nom d'utilisateur"
+  thinghttp_auth_pass: "Mot de passe"
+  thinghttp_body: "Corps"
+  thinghttp_content_type: "Type de contenu"
+  thinghttp_create: "Créer une nouvelle demande HTTP"
+  thinghttp_default_name: "Demande"
+  thinghttp_delete: "Supprimer la demande"
+  thinghttp_delete_message: "Voulez-vous supprimer cette requête ThingHTTP?"
+  thinghttp_edit: "Modifier l'appel HTTP"
+  thinghttp_error: "Des problèmes ont été rencontrés lors de la création de votre requête ThingHTTP:"
+  thinghttp_header_add: "ajouter un nouvel en-tête"
+  thinghttp_header_name: "Nom"
+  thinghttp_header_remove: "supprimer l'en-tête"
+  thinghttp_header_value: "Valeur"
+  thinghttp_headers: "En-têtes"
+  thinghttp_host: "Hôte"
+  thinghttp_http_version: "Version HTTP"
+  thinghttp_id: "Identifiant de la demande"
+  thinghttp_invalid_api_key: "Clé d'API invalide"
+  thinghttp_loop: "Merci de ne pas essayer d'envoyer une requête ThingHTTP dans une boucle!"
+  thinghttp_method: "Méthode"
+  thinghttp_name: "Nom"
+  thinghttp_new_api_key: "Regénérer la clé d'API"
+  thinghttp_parse: "Parser la chaîne de caractères"
+  thinghttp_parse_error: "Erreur lors du parsage de document, essayez une autre chaîne de caractères à parser."
+  thinghttp_permission: "Vous n'avez pas l'autorisation d'afficher cette requête ThingHTTP!"
+  thinghttp_update: "Mettre à jour l'appel HTTP"
+  thingtweet: "ThingTweet"
+  thingtweet_arduino_select_message: "Sélectionnez le compte Twitter à utiliser pour ce code"
+  thingtweet_back: "Retour à ThingTweet"
+  timecontrol: "TimeControl"
+  timecontrols: "TimeControls"
+  timecontrol_action_talkback_command: "puis ajouter la commande"
+  timecontrol_action_talkback_command_position: "à la position"
+  timecontrol_action_talkback_prefix: "à TalkBack"
+  timecontrol_date: 'date'
+  timecontrol_days: 'jours'
+  timecontrol_delete_message: "Voulez-vous supprimer ce TimeControl?"
+  timecontrol_error: "Des problèmes ont été rencontrés lors de la création de votre TimeControl:"
+  timecontrol_fuzzy_time: 'fuzzy time'
+  timecontrol_max_message: "Vous avez atteint le nombre maximum de TimeControls disponible par utilisateur. Veuillez supprimer un TimeControl existant avant d'en ajouter un nouveau."
+  timecontrol_permission: "Vous n'avez pas l'autorisation d'afficher ce TimeControl!"
+  timecontrol_run_at: 'exécuter à'
+  timecontrol_time: 'temps'
+  timecontrol_talkback_delete_warning1: "Impossible de supprimer ce TalkBack car il est utilisé par %{timecontrols_count}: %{timecontrols_list}"
+  timecontrol_talkback_delete_warning2: "Merci de supprimer ou de modifier ce TimeControl avant de dissocier ce TalkBack."
+  timecontrol_twitter_delete_warning1: "Impossible de supprimer ce compte Twitter car il est utilisé par %{timecontrols_count}: %{timecontrols_list}"
+  timecontrol_twitter_delete_warning2: "Merci de supprimer ou de modifier ce TimeControl avant de dissocier ce compte Twitter."
+  timecontrol_thinghttp_delete_warning1: "Impossible de supprimer cette requête ThingHTTP car elle est utilisée par %{timecontrols_count}: %{timecontrols_list}"
+  timecontrol_thinghttp_delete_warning2: "Merci de supprimer ou de modifier ce TimeControl avant de dissocier la requête ThingHTTP."
+  timescale: "Echelle de temps"
+  time_zone: "Fuseau Horaire"
+  title: "Titre"
+  tos: "Conditions de Service"
+  tos_agree: "En vous inscrivant, vous acceptez les"
+  try_again: "Merci de réessayer à nouveau!"
+  tutorials: "Tutoriels"
+  tweetcontrol: "TweetControl"
+  tweetcontrol_delete: "Supprimer le TweetControl"
+  tweetcontrol_delete_message: "Souhaitez-vous supprimer ce TweetControl?"
+  tweetcontrol_edit: "Mettre à jour le TweetControl"
+  tweetcontrol_error: "Des problèmes ont été rencontrés lors de la création de votre TweetControl:"
+  tweetcontrol_new: "Créer un nouveau TweetControl"
+  tweetcontrol_thinghttp: "Action ThingHTTP"
+  tweetcontrol_trigger: "Déclencheur"
+  twitter_accounts: "Comptes twitter"
+  twitter_delete: "Dissocier le compte"
+  twitter_failure: "Twitter a échoué."
+  twitter_invalid_api_key: "Clé d'API invalide"
+  twitter_link_account: "Connectez votre compte Twitter"
+  twitter_link_success: "a été connecté avec succès à ThingTweet."
+  twitter_new_api_key: "Regénérer la Clé d'API"
+  twitter_screen_name: "Compte Twitter"
+  upload: "Charger"
+  upload_incorrect_format: "Votre fichier CSV n'est pas correctement formaté."
+  upload_select: "Charger un fichier CSV pour importer des données dans cette chaîne"
+  uploading: "chargement du fichier..."
+  upload_successful: "Chargement réussi."
+  upload_no_file: "Veuillez spécifier un fichier à charger."
+  upload_no_data: "Le fichier chargé est vide."
+  url: "URL"
+  user: "Utilisateur"
+  user_no_public_channels: "Cet utilisateur n'a pas de chaînes publiques."
+  user_not_found: "Désolé, cet utilisateur n'a pas été trouvé."
+  user_public_channels: "Les chaînes publiques pour"
+  userid: "ID utilisateur"
+  video_id: "ID Vidéo"
+  view: "vue"
+  vimeo: "Vimeo"
+  watch_channel: "Regarder cette chaîne"
+  watched_channels: "Chaînes vues"
+  watched_empty: "Vous n'avez pas vu de chaînes."
+  watched_find: "Trouver des chaînes à regarder."
+  watched_view: "Voir les chaînes visionnées"
+  public_link: "Public"
+  private_link: "Privé"
+  settings_link: "Paramètres"
+  api_key_link: "Clé d'API"
+  data_import_link: "Import / Export De Données"
+  width: "Largeur"
+  youtube: "YouTube"
+
+# help section
+  help: "Aide"
+  help_api_documentation: "Documentation de l'API"
+  help_apps_talkback: "Autorisez les périphériques à exécuter des commandes en file d'attente."
+  help_apps_thinghttp: "Créez des requêtes POST ou GET personnalisées vers d'autres services web et récupérez les données."
+  help_apps_thingtweet: "Liez votre compte Twitter à ThingSpeak et envoyez des messages sur Twitter en utilisant notre API."
+  help_apps_timecontrol: "Lancez automatiquement des requêtes ThingHTTP ou ThingTweet à des moments prédéterminés."
+  help_apps_tweetcontrol: "Écoutez des commandes venant de Twitter et ensuite effectuez une action."
+  help_apps_react: "Effectuez des actions lorsque les conditions sont remplies par vos données dans vos chaînes."
+  help_channel: "Créez une chaîne -- cela peut concerner un périphérique, une application, ou tout ce qui peut envoyer des données à ThingSpeak."
+  help_channel_clear: "Cliquez sur le bouton \"Vider la chaîne\" supprimera toutes les données des flux associés à la chaîne, mais laissera intactes, les informations relatives à la chaîne."
+  help_channel_ranking: "L'exhaustivité aidera votre chaîne à apparaître plus haut dans la liste des chaînes publiques."
+  help_channel_feed: "Visualisation De Données"
+  help_channel_fields: "Ajoutez jusqu'à 8 champs pouvant être suivis. Un champ doit être ajouté avant de pouvoir stocker des données."
+  help_channel_import: "Sélectionnez un fichier CSV sur votre disque dur et importez l'ensemble de ses données directement dans cette chaîne. Votre fichier CSV doit contenir un champ date dans la première colonne. Si vos données ne contiennent pas d'informations sur le fuseau horaire, sélectionnez celui approprié."
+  help_channel_post: "Ajoutez des données par l'envoi d'une requête POST ou GET à:"
+  help_channel_post_example: "Veuillez inclure votre clé API d'écriture et quelques données, par exemple:"
+  help_channel_public: "Rendez cette chaîne publique pour permettre à n'importe qui de visionner ses flux et ses graphiques sans l'aide de clés d'API."
+  help_channel_read_key: "Les clés d'API de lecture peuvent être utilisées pour permettre à d'autres personnes de voir les flux et les graphiques de votre chaîne."
+  help_channel_read_key_note: "Les notes sont utilisées pour votre usage personnel, et peuvent être utilisées pour garder la trace des personnes à qui vous donnez des clés de lecture."
+  help_channel_update: "Envoi de données"
+  help_channel_url: "En utilisant le champ URL, vous pouvez fournir un lien vers fournissant plus d'informations sur votre chaîne publique, comme un billet de blog ou une page web sur la chaîne."
+  help_channel_video: "Ajoutez une vidéo à la vue publique de votre chaîne en fournissant un identifiant YouTube ou Vimeo, qui peut se trouver dans l'URL de votre vidéo."
+  help_channel_view: "Affichez les données de votre chaîne à:"
+  help_channel_write_key: "Utilisez vos propres clés API pour lire ou écrire des données sur cette chaîne."
+  help_charts: "Aide avec les graphiques"
+  help_charts_embed: "Le code intégré peut être ajouté à n'importe quelle page web, et votre graphique personnalisé apparaîtra là."
+  help_charts_options: "Créez des graphiques personnalisés en choisissant certaines options et en cliquant sur le bouton de mise à jour"
+  help_device: "Ajoutez votre appareil et stockez ses informations sur ThingSpeak."
+  help_device_edit: "Ajoutez les informations relatives à votre appareil sur cette page. Vous pourrez attribuer une adresse MAC sur la page suivante."
+  help_device_show: "Générez une adresse MAC aléatoirement, ou utilisez les adresses MAC réservées de ThingSpeak, dont chacune est unique."
+  help_plugins: "Les plugins vous permettent de créer des fichiers HTML, JavaScript, et CSS personnalisés, et qui peuvent être utilisés pour parser et afficher vos données."
+  help_social_channel: "Créez une nouvelle chaîne sociale qui sera accessible à:"
+  help_social_channel_public: "Toutes les chaînes sociales sont publiques. Utilisez le champ de message afin de permettre aux utilisateurs d'entrer d'autres données, comme un message accompagnant leur soumission."
+  help_talkback: "Lancez une file de commandes à destination de vos périphériques avec TalkBack."
+  help_talkback_index: "Créez un TalkBack et ajoutez plusieurs commandes. Votre appareil pourra alors exécuter les commandes stockées, et ces commandes seront supprimées de la file d'attente."
+  help_talkback_channel: "Si une chaîne de journalisation est mise en place, les commandes exécutées seront automatiquement connectées au champ 'statut' de cette chaîne."
+  help_talkback_commands_1: "Les commandes peuvent être ajoutées ici ou"
+  help_talkback_commands_2: "via l'API"
+  help_talkback_show: "Pour en savoir plus sur l'utilisation de TalkBack, nous vous suggérons de consulter notre"
+  help_thinghttp: "Utilisez ThingHTTP pour accéder à d'autres APIs ou pages web et parser les réponses. Vous pouvez créer et sauvegarder une requête HTTP entière vers n'importe quel URL, et puis y accéder facilement à l'aide de votre clé d'API ThingHTTP."
+  help_thinghttp_edit: "Créez votre propre requête HTTP sur cette page. Par exemple, essayez les options suivantes:"
+  help_thinghttp_example: "Cela permettra d'envoyer votre demande HTTP GET à Google Finance et de parser la réponse concernant un élément ayant comme identifiant ref_626307_c, ce qui correspond à la variation du prix de S&P 500, du jour."
+  help_thinghttp_show: "Vous pouvez maintenant envoyer votre requête ThingHTTP et voir la réponse à l'aide de l'URL suivante:"
+  help_thingtweet: "ThingTweet agit comme un proxy pour Twitter afin que vos appareils puissent mettre à jour des statuts Twitter sans avoir à mettre en œuvre l'authentification ouverte (OAuth)."
+  help_timecontrol_index: "Créez un TimeControl pour exécuter automatiquement des requêtes ThingHTTP, pour mettre à jour des statuts ThingTweet, ou pour ajouter des commandes TalkBack à des moments prédéterminés."
+  help_timecontrol_show: "Votre TimeControl sera exécuté automatiquement à l'heure indiquée."
+  help_tweetcontrol: "Utilisez TweetControl pour écouter des hashtags spécifiques sur Twitter, puis exécutez une requête ThingHTTP."
+  help_tweetcontrol_edit: "Sélectionnez l'Anonymous TweetControl afin de permettre à quiconque de déclencher votre TweetControl ou de remplir un compte Twitter spécifique (ne pas inclure les symboles '@')."
+  help_tweetcontrol_hashtag: "Pour déclencher un TweetControl, vous devez envoyer une mise à jour de statut Twitter comportant au-moins le hashtag #thingspeak, et le mot déclencheur, par exemple:"
+  help_tweetcontrol_thinghttp: "Sélectionnez une requête ThingHTTP à utiliser avec ce TweetControl. La requête ThingHTTP sera exécutée lorsque le TweetControl se déclenchera."
+  help_tweetcontrol_trigger: "Remplissez un déclencheur pour écouter."
+  help_options: "plus d'aide"
+  help_react: "React vous permet de déclencher une requête ThingHTTP ou d'envoyer un tweet en utilisant ThingTweet quand votre chaîne ThingSpeak respecte une certaine condition."
+  help_react_create: "Créez votre condition React ici."
+  help_react_edit: "Mettez à jour votre condition React ici."
+  help_react_edit1: "Sélectionnez un type de condition correspondant avec le type de données que vous souhaitez consulter et définissez vos valeurs de condition."
+  help_react_edit2: "Utilisez le paramètre de la fréquence de test pour choisir de tester votre condition à chaque insertion ou à intervalle de temps donné."
+  help_react_edit3: "Sélectionnez ThingTweet ou ThingHTTP comme action à exécuter si la condition est remplie."
+
+  # unsorted
+  window_map: "Carte"
+  window_status: "Statut"
+  window_channel_video: "Vidéo de la chaîne"
+  window_field_chart: "Champ graphique %{field_number}"
+  window_plugin: "%{name} (Plugin)"
+  portlets_available: "Portlets disponibles"
+  private_view: "Vue privée"
+  public_view: "Vue publique"
+  channel_settings: "Paramètres de la chaîne"
+  data_import: "Importation / Exportation des données"
+  portlets_all_displayed: "Tous les portlets disponibles sont affichés"
+  portlets_add: "Cliquez sur un rectangle pour ajouter ce portlet au tableau de bord."
+  add_portlets: "Ajoutez un portlet"
+
+  # documentation error headers
+  error_code: "Code d'erreur"
+  error_http_status: "Statut HTTP"
+  error_message: "Message"
+  error_details: "Détails"
+
+  # errors
+  error_codes:
+    error_auth_required:
+      message: "Autorisation Requise"
+      http_status: 401
+      details: "Veuillez fournir les informations d'authentification."
+    error_resource_not_found:
+      message: "Ressource Introuvable"
+      http_status: 404
+      details: "La ressource demandée n'a pas été trouvée. Veuillez vérifier l'URL et essayez à nouveau."
+    error_method_invalid:
+      message: "Méthode non autorisée"
+      http_status: 405
+      details: "Veuillez utiliser la bonne méthode HTTP pour cette requête."
+    error_no_action:
+      message: "Aucune action effectuée"
+      http_status: 421
+      details: "Le serveur a essayé de traiter votre demande, mais n'a aucune action à effectuer."
+    error_too_many_requests:
+      message: "Trop de demandes"
+      http_status: 429
+      details: "Merci d'attendre avant de faire une autre demande."
+
+  number:
+    # Used in number_with_delimiter()
+    # These are also the defaults for 'currency', 'percentage', 'precision', and 'human'
+    format:
+      # Sets the separator between the units, for more precision (e.g. 1.0 / 2.0 == 0.5)
+      separator: "."
+      # Delimits thousands (e.g. 1,000,000 is a million) (always in groups of three)
+      delimiter: ","
+      # Number of decimals, behind the separator (the number 1 with a precision of 2 gives: 1.00)
+      precision: 3
+      # If set to true, precision will mean the number of significant digits instead
+      # of the number of decimal digits (1234 with precision 2 becomes 1200, 1.23543 becomes 1.2)
+      significant: false
+      # If set, the zeros after the decimal separator will always be stripped (eg.: 1.200 will be 1.2)
+      strip_insignificant_zeros: false
+
+    # Used in number_to_currency()
+    currency:
+      format:
+        # Where is the currency sign? %u is the currency unit, %n the number (default: $5.00)
+        format: "%u%n"
+        unit: "$"
+        # These five are to override number.format and are optional
+        separator: "."
+        delimiter: ","
+        precision: 2
+        significant: false
+        strip_insignificant_zeros: false
+
+    # Used in number_to_percentage()
+    percentage:
+      format:
+        # These five are to override number.format and are optional
+        # separator:
+        delimiter: ""
+        # precision:
+        # significant: false
+        # strip_insignificant_zeros: false
+        format: "%n%"
+
+    # Used in number_to_precision()
+    precision:
+      format:
+        # These five are to override number.format and are optional
+        # separator:
+        delimiter: ""
+        # precision:
+        # significant: false
+        # strip_insignificant_zeros: false
+
+    # Used in number_to_human_size() and number_to_human()
+    human:
+      format:
+        # These five are to override number.format and are optional
+        # separator:
+        delimiter: ""
+        precision: 3
+        significant: true
+        strip_insignificant_zeros: true
+      # Used in number_to_human_size()
+      storage_units:
+        # Storage units output formatting.
+        # %u is the storage unit, %n is the number (default: 2 MB)
+        format: "%n %u"
+        units:
+          byte:
+            one:   "Byte"
+            other: "Bytes"
+          kb: "KB"
+          mb: "MB"
+          gb: "GB"
+          tb: "TB"
+      # Used in number_to_human()
+      decimal_units:
+        format: "%n %u"
+        # Decimal units output formatting
+        # By default we will only quantify some of the exponents
+        # but the commented ones might be defined or overridden
+        # by the user.
+        units:
+          # femto: Quadrillionth
+          # pico: Trillionth
+          # nano: Billionth
+          # micro: Millionth
+          # mili: Thousandth
+          # centi: Hundredth
+          # deci: Tenth
+          unit: ""
+          # ten:
+          #   one: Ten
+          #   other: Tens
+          # hundred: Hundred
+          thousand: Mille
+          million: Million
+          billion: Milliard
+          trillion: Billion
+          quadrillion: Quadrillion
+
+  # Used in distance_of_time_in_words(), distance_of_time_in_words_to_now(), time_ago_in_words()
+  datetime:
+    distance_in_words:
+      half_a_minute: "une demi-minute"
+      less_than_x_seconds:
+        one:   "moins de 1 seconde"
+        other: "moins de %{count} secondes"
+      x_seconds:
+        one:   "1 seconde"
+        other: "%{count} secondes"
+      less_than_x_minutes:
+        one:   "moins d'une minute"
+        other: "moins de %{count} minutes"
+      x_minutes:
+        one:   "1 minute"
+        other: "%{count} minutes"
+      about_x_hours:
+        one:   "environ 1 heure"
+        other: "environ %{count} heures"
+      x_days:
+        one:   "1 jour"
+        other: "%{count} jours"
+      about_x_months:
+        one:   "environ 1 mois"
+        other: "environ %{count} mois"
+      x_months:
+        one:   "1 mois"
+        other: "%{count} mois"
+      about_x_years:
+        one:   "environ 1 an"
+        other: "environ %{count} ans"
+      over_x_years:
+        one:   "plus de 1 an"
+        other: "plus de %{count} ans"
+      almost_x_years:
+        one:   "presque 1 an"
+        other: "presque %{count} ans"
+    prompts:
+      year:   "Année"
+      month:  "Mois"
+      day:    "Jour"
+      hour:   "Heure"
+      minute: "Minute"
+      second: "Secondes"
+
+  helpers:
+    select:
+      # Default value for :prompt => true in FormOptionsHelper
+      prompt: "Veuillez sélectionner"
+
+    # Default translation keys for submit and button FormHelper
+    submit:
+      create: 'Créer %{model}'
+      update: 'Mettre à jour %{model}'
+      submit: 'Sauvegarder %{model}'
+
+# Devise translations
+# Additional translations at https://github.com/plataformatec/devise/wiki/I18n
+  devise:
+    confirmations:
+      confirmed: "Votre compte a bien été confirmé."
+      send_instructions: "Vous recevrez un courriel avec des instructions sur la façon de confirmer votre compte dans quelques minutes."
+      send_paranoid_instructions: "Si votre adresse e-mail existe dans notre base de données, vous recevrez un courriel avec des instructions sur la façon de confirmer votre compte dans quelques minutes."
+    failure:
+      already_authenticated: "Vous êtes déjà connecté."
+      inactive: "Votre compte n'est pas encore activé."
+      invalid: "Login ou mot de passe invalide."
+      locked: "Votre compte est verrouillé."
+      last_attempt: "Vous n'avez plus qu'une seule tentative avant que votre compte soit verrouillé."
+      not_found_in_database: "Login ou mot de passe invalide."
+      timeout: "Votre session a expiré. Veuillez vous connecter à nouveau pour continuer."
+      unauthenticated: "Vous devez vous connecter ou vous inscrire avant de continuer."
+      unconfirmed: "Vous devez confirmer votre compte avant de continuer."
+    mailer:
+      confirmation_instructions:
+        subject: "Instructions de confirmation"
+      reset_password_instructions:
+        subject: "Instructions de réinitialisation du mot de passe"
+      unlock_instructions:
+        subject: "Instructions de déverrouillage"
+    omniauth_callbacks:
+      failure: "Impossible de vous authentifier à partir de %{kind} car \"%{reason}\"."
+      success: "Authentification réussie du compte %{kind}."
+    passwords:
+      no_token: "Vous ne pouvez accéder à cette page qu'à partir de l'e-mail de réinitialisation de mot de passe. Si vous venez à partir d'un e-mail de réinitialisation de mot de passe, assurez-vous d'avoir utilisé la totalité de l'URL fournie."
+      send_instructions: "Vous recevrez un courriel avec des instructions sur la façon de réinitialiser votre mot de passe dans quelques minutes."
+      send_paranoid_instructions: "Si votre adresse e-mail existe dans notre base de données, vous recevrez un lien de récupération de mot de passe à votre adresse email dans quelques minutes."
+      updated: "Votre mot de passe a été modifié avec succès. Vous êtes maintenant connecté."
+      updated_not_active: "Votre mot de passe a été modifié avec succès."
+    registrations:
+      destroyed: "Au revoir! Votre compte a été annulé. Nous espérons vous revoir bientôt."
+      signed_up: "Bienvenue! Votre inscription a bien été prise en compte."
+      signed_up_but_inactive: "Votre inscription a bien été prise en compte. Cependant, nous ne pouvons pas vous connecter, car votre compte n'est pas encore activé."
+      signed_up_but_locked: "Votre inscription a bien été prise en compte. Cependant, nous ne pouvons pas vous connecter, car votre compte est verrouillé."
+      signed_up_but_unconfirmed: "Un message avec un lien de confirmation a été envoyé à votre adresse email. Veuillez ouvrir le lien pour activer votre compte."
+      update_needs_confirmation: "Vous avez mis à jour votre compte avec succès, mais nous devons vérifier votre nouvelle adresse email. Veuillez vérifier votre adresse email et cliquez sur le lien pour confirmer votre nouvelle adresse email."
+      updated: "Vous avez mis à jour votre compte avec succès."
+    sessions:
+      signed_in: "Connexion réussie."
+      signed_out: "Déconnexion réussie."
+    unlocks:
+      send_instructions: "Vous recevrez un courriel avec des instructions sur la façon de déverrouiller votre compte dans quelques minutes."
+      send_paranoid_instructions: "Si votre compte existe, vous recevrez un courriel avec des instructions sur la façon de le débloquer dans quelques minutes."
+      unlocked: "Votre compte a été débloqué avec succès. Veuillez vous connecter pour continuer."
+  errors:
+    messages:
+      already_confirmed: "a déjà été confirmé, essayer s'il vous plaît de vous connecter"
+      expired: "has expired, please request a new one"
+      confirmation_period_expired: "doit être confirmée dans un délai de %{period}, veuillez en redemander un nouveau"
+      not_found: "pas trouvé"
+      not_locked: "n'a pas été verrouillé"
+      not_saved:
+        one: "1 erreur empêche la sauvegarde de %{resource} :"
+        other: "%{count} erreurs empêchent la sauvegarde de %{resource}:"
