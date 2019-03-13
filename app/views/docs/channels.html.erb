@@ -7,7 +7,7 @@
   <div class="col-sm-7 col-xs-12">
 
     <h1 id="channels">Channels</h1>
-    Channels are where your application stores and retrieves any type of data. Each channel has a Private View and a Public View. The Private View is only accessible by signing into your ThingSpeak.com user account. The Public View is what other viewers will see when they visit your ThingSpeak Channel. You can have different info on each view, customize the view with Plugins, and even disable the Public View.    <br><br>
+    Channels are where your application stores and retrieves any type of data. Each channel has a Private View and a Public View. The Private View is only accessible by signing into your ThingSpeak.fr user account. The Public View is what other viewers will see when they visit your ThingSpeak Channel. You can have different info on each view, customize the view with Plugins, and even disable the Public View.    <br><br>
     <br><br>
     <%= image_tag 'channel_public_view.png', :size => '600x533' %>
     <br><br><br>
@@ -47,7 +47,7 @@
     <h2 id="urls">Base URL Addresses and Locations</h2>
     Regular URL:
     <br><br>
-    <pre>http://api.thingspeak.com</pre>
+    <pre><%= "#{@ssl_api_domain}" %></pre>
     <br>
     Secure URL:
     <br><br>
@@ -94,7 +94,7 @@
 
     <hr />
     <h2 id="rate_limits">Rate Limits</h2>
-    The open service via ThingSpeak.com has a rate limit of an update per channel every 15 seconds. This limit is so that the service can remain free and give everyone a high-level of service. The API source will also be made available on <a href="https://github.com/iobridge/ThingSpeak">GitHub</a> so that you can run this locally or via a shared web host provider. At that point you will be able to to tweak settings for your application requirements.
+    The open service via ThingSpeak.fr has a rate limit of an update per channel every 15 seconds. This limit is so that the service can remain free and give everyone a high-level of service. The API source will also be made available on <a href="https://github.com/iobridge/ThingSpeak">GitHub</a> so that you can run this locally or via a shared web host provider. At that point you will be able to to tweak settings for your application requirements.
     <br><br>
 
     <h4>Caching</h4>

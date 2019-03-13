@@ -72,8 +72,8 @@
       exporting: { enabled: false },
       legend: { enabled: false },
       credits: {
-        text: 'ThingSpeak.com',
-        href: 'https://thingspeak.com/',
+        text: 'ThingSpeak.fr',
+        href: 'https://ts.smartcomputerlab.org/',
         style: { color: '#D62020' }
       }
     };
